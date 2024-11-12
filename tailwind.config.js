@@ -10,8 +10,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
-  darkMode: "class",
-  plugins: [nextui()]
+  plugins: [nextui()],
+  darkMode: "class"
 }
 

@@ -3,6 +3,7 @@ import { useState } from 'react'
 import '/src/css/App.css'
 import { motion } from 'framer-motion';
 import { AtSign, Dribbble, Facebook, Instagram, Twitter } from 'lucide-react'
+import viteLogo from '/vite.svg'
 import NavigationBar from './shares/Navbar';
 
 const HomePage = () => {

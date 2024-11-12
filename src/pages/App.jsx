@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import viteLogo from '/vite.svg'
 import reactLogo from '/src/assets/react.svg'
 import '/src/css/App.css'
 import { motion } from 'framer-motion';
