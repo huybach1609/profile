@@ -9,7 +9,7 @@ import NavigationBar from './shares/Navbar';
 const HomePage = () => {
     const NamePart = () => {
 
-        const [avatarSrc, setAvatar] = useState('/image/peep.png');
+        const [avatarSrc, setAvatar] = useState(`${import.meta.env.BASE_URL}/image/peep.png`);
 
         return <>
             <section className="py-10 md:py-16">
@@ -22,8 +22,8 @@ const HomePage = () => {
                     <div className="text-center">
                         <div className="flex justify-center items-center mb-16 h-56">
                             <motion.img
-                                onMouseEnter={() => setAvatar('/image/home-img.JPG')}
-                                onMouseLeave={() => setAvatar('/image/peep.png')}
+                                onMouseEnter={() => setAvatar(`${import.meta.env.BASE_URL}/image/home-img.JPG`)}
+                                onMouseLeave={() => setAvatar(`${import.meta.env.BASE_URL}/image/peep.png`)}
                                 className='rounded-full w-52 object-cover ' src={avatarSrc} alt="Image"
                                 initial={{
                                     opacity: 0.5,
